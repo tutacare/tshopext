@@ -12,5 +12,4 @@ class TshopExt {
         $report_item = TransactionItem::where('transaction_id', $id)->get();
         return $report_item;
   }
-
- ?>
+}
